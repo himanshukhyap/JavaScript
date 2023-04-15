@@ -38,13 +38,13 @@ console.log(cars)
 
 
 const cars_new = new Array("Saab", "Volvo", "BMW");
-console.log(cars_new)   
+console.log(cars_new)
 
 cars[0] = "Opel";
 console.log(cars)
 
 
-console.log(typeof(cars))
+console.log(typeof (cars))
 console.log(Array.isArray(cars))
 console.log(cars.length)
 console.log(cars.sort())
@@ -122,11 +122,11 @@ console.log(rest); // Output: [2, 3, "four", true]
 const numbers = [1, 2, 3, 4, 5];
 
 const sum = numbers.reduce((accumulator, currentValue) => {
-    console.log(accumulator)
-    console.log(currentValue)
+  console.log(accumulator)
+  console.log(currentValue)
   return accumulator + currentValue;
-            // 1+2
-            // 3+3
+  // 1+2
+  // 3+3
 
 });
 
@@ -137,8 +137,8 @@ console.log(sum); // Output: 15
 const numbers1 = [1, 2, 3, 4, 5];
 
 const sum1 = numbers.reduce((accumulator, currentValue) => {
-    console.log(accumulator)
-    console.log(currentValue)
+  console.log(accumulator)
+  console.log(currentValue)
   return accumulator + currentValue;
 }, 0);
 
@@ -147,13 +147,13 @@ console.log(sum1); // Output: 15
 
 
 const people = [
-    { name: 'John', age: 20 },
-    { name: 'Sarah', age: 25 },
-    { name: 'Mike', age: 30 },
-    { name: 'Mary', age: 35 },
-  ];
-  const result = people.find(person => person.age >= 30);
-  console.log(result);  // Output: { name: 'Mike', age: 30 }
+  { name: 'John', age: 20 },
+  { name: 'Sarah', age: 25 },
+  { name: 'Mike', age: 30 },
+  { name: 'Mary', age: 35 },
+];
+const result = people.find(person => person.age >= 30);
+console.log(result);  // Output: { name: 'Mike', age: 30 }
 
 
 // flat() - Creates a new array with all sub-array elements concatenated into it recursively up to a specified depth.
@@ -164,11 +164,11 @@ console.log(flattenedArr); // [1, 2, 3, 4, 5, 6]
 
 // findIndex() - Returns the index of the first element in an array that passes a test.
 const arrs = [1, 2, 3, 4, 5];
-console.log(arrs.findIndex(x=>x/2==2))
+console.log(arrs.findIndex(x => x / 2 == 2))
 
 
 const number = [1, 2, 3, 4];
-number.forEach(num => console.log(num) ); 
+number.forEach(num => console.log(num));
 
 
 // from() - Creates a new array from an array-like object.
