@@ -163,5 +163,12 @@ const people = [
   ];
   const result = people.find(person => person.age >= 30);
 
-  console.log(result); // Output: { name: 'Mike', age: 30 }
-    
+  console.log(result);  // Output: { name: 'Mike', age: 30 }
+
+
+const arr = [1, 2, [3, 4, [5, 6]]];
+const flattenedArr = arr.flat(2);
+console.log(flattenedArr); // [1, 2, 3, 4, 5, 6]
+
+
+
