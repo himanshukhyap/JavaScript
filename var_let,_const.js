@@ -42,3 +42,13 @@ const b = 2;
 
 a = 3; // This is allowed
 b = 4; // This will result in a TypeError: Assignment to constant variable.
+
+
+
+// the scope is the context in which variables, functions, and objects are defined. 
+// scope ==> Home, {},
+// There are two types of scope in JavaScript:
+
+// Global Scope: Variables or functions declared outside of any function or block have global scope. They can be accessed from anywhere in the code, including inside functions and blocks.
+
+// Local Scope: Variables or functions declared inside a function or block have local scope. They can only be accessed from within that function or block.
