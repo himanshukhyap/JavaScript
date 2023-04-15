@@ -33,7 +33,43 @@
 // values() - returns a new array iterator object that contains the values for each index in the array
 // Note that some of these methods, such as slice() and concat(), also work with strings and other iterable objects, not just arrays.
 
+// Create a new array:
 
+// concat()
+// entries()
+// filter()
+// flat()
+// flatMap()
+// map()
+// slice()
+// toLocaleString()
+// toString()
+// values()
+
+
+// Modify array:
+
+// copyWithin()
+// every()
+// fill()
+// find()
+// findIndex()
+// forEach()
+// includes()
+// indexOf()
+// join()
+// keys()
+// lastIndexOf()
+// pop()
+// push()
+// reduce()
+// reduceRight()
+// reverse()
+// shift()
+// some()
+// sort()
+// splice()
+// unshift()
 
 var numbers = [1, 2, 3, 4, 5, 6];
 
