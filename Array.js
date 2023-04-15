@@ -108,26 +108,29 @@ const joinedArray = numbers.join("-");
 console.log(joinedArray); // "1-2-3-4-5-6"
 
 // keys()
+numbers
 const keysArray = numbers.keys();
-for (let key of keysArray) {
-  console.log(key); // 0, 1, 2, 3, 4, 5
-}
+console.log(...keysArray)
+
 
 // lastIndexOf()
 const lastIndexTwo = numbers.lastIndexOf(2);
 console.log(lastIndexTwo); // 1
 
 // map()
+numbers = [1, 2, 3, 4, 5, 6];
 const doubledArray = numbers.map((number) => number * 2);
 console.log(doubledArray); // [2, 4, 6, 8, 10, 12]
 
 // pop()
+numbers = [1, 2, 3, 4, 5, 6];
 const lastElement = numbers.pop();
 console.log(lastElement); // 6
 console.log(numbers); // [1, 2, 3, 4, 5]
 
 // push()
-const newLength = numbers.push(6, 7);
+numbers = [1, 2, 3, 4, 5, 6];
+const newLength = numbers.push(6, 7,8,9,10,11,12);
 console.log(newLength); // 7
 console.log(numbers); 
 
@@ -141,8 +144,9 @@ const reverseSum = numbers.reduceRight((accumulator, currentValue) => accumulato
 console.log(reverseSum); // 28
 
 // reverse()
+numbers = [1, 2, 3, 4, 5, 6];
 const reversedArray = numbers.reverse();
-console.log(reversedArray); // [7, 6, 5, 4, 3, 2, 1]
+console.log(reversedArray); 
 
 // shift()
 numbers = [1, 2, 3, 4, 5, 6];
