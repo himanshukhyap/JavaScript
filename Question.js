@@ -64,3 +64,21 @@ null == undefined // true, because both values are coerced to false before compa
 1 === "1" // false, because the operands are of different types
 0 === false // false, because the operands are of different types
 null === undefined // false, because the operands are of different types
+
+
+
+// What is a closure in JavaScript and how is it useful?
+// In JavaScript, a closure is created when a function is defined inside another function and the inner function has access to the outer function's variables and parameters, even after the outer function has returned. 
+function outerFunction() {
+    const message = 'Hello';
+  
+    function innerFunction() {
+      console.log(message);
+    }
+  
+    return innerFunction;
+  }
+  
+  const myFunction = outerFunction();
+  myFunction(); // logs "Hello"
+  
