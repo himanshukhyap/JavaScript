@@ -1,0 +1,12 @@
+<!-- What is event bubbling in JavaScript?  -->
+<!-- Event bubbling in JavaScript is a mechanism by which an event that is triggered on an element will "bubble up" through its parent elements until it is handled by the root of the document tree. -->
+<div id="outer">
+    <div id="inner">
+        <button>Click me!</button>
+    </div>
+</div>
+
+
+<div onclick="console.log('div clicked')">
+    <button onclick="console.log('p clicked')">Click me</button>
+</div>
